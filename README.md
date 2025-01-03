@@ -1,14 +1,5 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-    <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-    <a href="https://img.shields.io/badge/PHP-100%25-brightgreen" alt="PHP Usage">PHP</a>
-    <a href="https://img.shields.io/badge/Blade-90%25-brightgreen" alt="Blade Usage">Blade</a>
-    <a href="https://img.shields.io/badge/JavaScript-20%25-lightgray" alt="JavaScript Usage">JavaScript</a>
-    <a href="https://img.shields.io/badge/CSS-30%25-lightgray" alt="CSS Usage">CSS</a>
-    <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
-
 # Laravel URL Shortener
 
 A simple Laravel-based URL shortener service that converts long URLs into short, user-friendly URLs. This service includes a frontend interface for ease of use and ensures proper redirection from the short URL to the original URL.
