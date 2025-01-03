@@ -126,7 +126,7 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 ## Contributing
 
-Contributions are welcome! Feel free to open issues or submit pull requests. Reach out to me if needed to [alif.rahman.c@gmail.com](mailto:alif.rahman.c@gmail.com).
+Contributions are welcome! Feel free to open issues or submit pull requests. Reach out to me if needed to at [alif.rahman.c@gmail.com](mailto:alif.rahman.c@gmail.com).
 
 ## Local Setup for Contribution
 
