@@ -57,10 +57,10 @@ Follow these steps to set up the project locally:
 
 ## 3. Configure Environment
 
-- Create a <B>.env</B> file based on <B>.env.example</B>:
+- Create a **`.env`** file based on **`.env.example`**:
     ```bash
         cp .env.example .env
-- Update the database settings in <B>.env</B>
+- Update the database settings in **`.env`**
     ```bash
         DB_CONNECTION=mysql
         DB_HOST=127.0.0.1
@@ -86,20 +86,20 @@ Follow these steps to set up the project locally:
 - Launch the Laravel development server:
     ```bash
         php artisan serve
-The app will be accessible at <B>http://127.0.0.01:8000</B>.
+The app will be accessible at **`http://127.0.0.01:8000`**.
 
 ## Usage
 
 Frontend
-1. Open the application in your browser at <B>https://127.0.0.01:8000</B>.
+1. Open the application in your browser at **`https://127.0.0.01:8000`**.
 2. Enter a valid long URL in the input field and click "Shorten".
 3. The generated short URL will be displayed and clicking it will redirect to the original URL.
 
 ## API Endpoints
 
 - Create Short URL
-  - Method: <B>POST</B>
-  - Endpoint: <B>/shorten</B>
+  - Method: **`POST`**
+  - Endpoint: **`/shorten`**
   - Payload:
     ```bash
     {
@@ -111,17 +111,17 @@ Frontend
        "short_url": "https://127.0.0.1:8000/abc123"
      }
 - Redirect
-  - Method: <B>GET</B>
-  - Endpoint: <B>/abc123</B>
+  - Method: **`GET`**
+  - Endpoint: **`/abc123`**
   - Redirects to the original long URL
 
 ## Project Structure
 
-- Frontend: Blade template at <B>resources/views/shortener.blade.php</B>
-- Controller: URL shortening logic in <B>app/Http/Controller/UrlShortenerController.php</B>
-- Model: ShortUrl model in <B>app/Models/ShortUrl.php</B>
-- Routes: Defined in <B>routes/web.php</B>
-- Database Migration: Located in <B>database/migrations</B>
+- Frontend: Blade template at **`resources/views/shortener.blade.php`**
+- Controller: URL shortening logic in **`app/Http/Controller/UrlShortenerController.php`**
+- Model: ShortUrl model in **`app/Models/ShortUrl.php`**
+- Routes: Defined in **`routes/web.php`**
+- Database Migration: Located in **`database/migrations`**
 In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
 ## Contributing
