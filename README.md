@@ -103,7 +103,7 @@ Frontend
   - Payload:
     ```bash
     {
-       "url": "https://example.com"
+       "url": "https://example.com/dfkuvghduyfkjUGBNWJNFiuyewfkjbw0845tjsndvkgv"
     }
    - Response:
      ```bash
